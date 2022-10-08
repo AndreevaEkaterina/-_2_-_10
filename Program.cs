@@ -3,4 +3,6 @@
 // 782 -> 8
 // 918 -> 1
 Console.Clear();
-Console.Write("Введите число:");
+int num = new Random().Next(100, 1000);
+int a=(num/10)%10;
+Console.WriteLine($"{num} -> {a}");
